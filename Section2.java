@@ -1,5 +1,7 @@
 public class Section2
-{public static void main(String[] args) {
+{
+    public static void main(String[] args)
+    {
     int x, y, z;
     x = 5;
     System.out.println("x = " + x);
@@ -8,5 +10,5 @@ public class Section2
     z = 15;
     System.out.println("z = " + z);
     System.out.println("((x+y)*z)/(x-y) = "+((x+y)*z)/(x-y));
-}
+    }
 }
