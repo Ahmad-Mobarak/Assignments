@@ -12,3 +12,4 @@ public class Section2
     System.out.println("((x+y)*z)/(x-y) = "+((x+y)*z)/(x-y));
     }
 }
+// The result = -45
