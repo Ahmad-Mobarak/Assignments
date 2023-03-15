@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class task4_3switch_case {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the radius of the circle: ");
-        double radius = input.nextDouble();
+        double radius = scanner.nextDouble();
 
         switch(radius > 0 ? 1 : 0) {
             case 1:
@@ -15,7 +15,5 @@ public class task4_3switch_case {
                 System.out.println("Invalid radius!");
                 break;
         }
-
-        input.close();
     }
 }
