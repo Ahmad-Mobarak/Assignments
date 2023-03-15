@@ -13,7 +13,7 @@ public class task4_1switch_case {
                 System.out.println(num + " is an odd number.");
                 break;
             default:
-                System.out.println("Invalid input.");
+                System.out.println("Invalid input!");
         }
     }
 }
